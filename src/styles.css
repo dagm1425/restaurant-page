@@ -5,6 +5,37 @@
     font-family: sans-serif;
 }
 
+body {
+    background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: inherit;
+    margin-left: 12px;
+    transition: 0.1s;
+}
+
+.links a:hover {
+    opacity: 50%;
+}
+
+.links a:active {
+    opacity: 70%;
+}
+
 .hero {
     margin: 6rem auto 0;
     display: flex;
@@ -16,7 +47,9 @@
 .left {
     max-width: 475px;
     padding: 2.5rem;
+    margin-right: 1rem;
     font-size: 22px;
+    color: rgba(0, 0, 0, 0.85);
 }
 
 .left p {
@@ -26,10 +59,12 @@
 
 .right {
     max-width: 575px;
+    border-radius: 25px;
 }
 
 .right img {
     max-width: 100%;
     height: auto;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 
