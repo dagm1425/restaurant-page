@@ -5,8 +5,8 @@ var img = new Image();
 img.src = myImage;
 
 export default function home() {
-    const sectionElem = document.createElement('section');
-    sectionElem.classList.add('hero');
+    const home = document.createElement('div');
+    home.classList.add('hero');
 
     const leftDiv = document.createElement('div');
     leftDiv.classList.add('left');
@@ -18,15 +18,15 @@ export default function home() {
     headline.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit' 
      + 'Rerum illo illum dolorem labore laudantium accusamus cupiditate ipsa' 
     leftDiv.appendChild(headline);
-    sectionElem.appendChild(leftDiv);
+    home.appendChild(leftDiv);
 
     const rightDiv = document.createElement('div');
     rightDiv.classList.add('right');
     img.classList.add('right', 'img');
     rightDiv.appendChild(img);
-    sectionElem.appendChild(rightDiv);
+    home.appendChild(rightDiv);
 
-    document.getElementById('content').appendChild(sectionElem);
+    document.getElementById('content').appendChild(home);
 
     // var allElements = document.getElementsByTagName("*");
     // for (var i = 0, len = allElements.length; i < len; i++) {
