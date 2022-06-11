@@ -4,7 +4,7 @@ import myImage from './image.jpg';
 var img = new Image();
 img.src = myImage;
 
-export default function pageLoad() {
+export default function home() {
     const sectionElem = document.createElement('section');
     sectionElem.classList.add('hero');
 
@@ -33,12 +33,4 @@ export default function pageLoad() {
     //     var element = allElements[i];
     //     element.style.cssText = 'margin: 0; padding: 0; box-sizing: border-box;';
     // }
-
-    // sectionElem.classList.add('hero');
-    // leftDiv.classList.add('left');
-    // headline.classList.add('left', 'p');
-    // rightDiv.classList.add('right');
-    // img.classList.add('right', 'img');
-
-
 }

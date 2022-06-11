@@ -25,15 +25,15 @@ nav {
     font-size: 1.125rem;
     color: inherit;
     margin-left: 12px;
-    transition: 0.1s;
+    transition: 0.05s;
 }
 
 .links a:hover {
-    opacity: 50%;
+    opacity: 45%;
 }
 
 .links a:active {
-    opacity: 70%;
+    opacity: 45%;
 }
 
 .hero {
@@ -68,3 +68,80 @@ nav {
     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 
+.menu-div {
+    width: 55%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.menu-heading {
+    margin: 2rem auto 1rem;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    grid-gap: 1.75rem;
+}
+
+.grid-img1 {
+    height: 295px;
+    background-image: url('./noodlesImg1.jpg');
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.grid-img2 {
+    height: 295px;
+    background-image: url('./noodlesImg2.jpg');
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.grid-img3 {
+    height: 295px;
+    background-image: url('./noodlesImg3.jpg');
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.grid-bevImg1 {
+    height: 295px;
+    background-image: url('./bevImg1.jpg');
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.grid-bevImg2 {
+    height: 295px;
+    background-image: url('./bevImg2.jpg');
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.grid-bevImg3 {
+    height: 295px;
+    background-image: url('./bevImg3.jpg');
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.grid-title {
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.65);   
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; 
+}
+
+.grid-item {
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.16);
+}

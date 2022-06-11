@@ -3,7 +3,9 @@ const path = require('path');
 module.exports = {
   entry: {
     index: './src/index.js',
-    pageLoad: './src/pageLoad.js',
+    home: './src/home.js',
+    menu: './src/menu.js',
+    // contact: '/src/contact.js'
   },
   devtool: 'inline-source-map',
   output: {
